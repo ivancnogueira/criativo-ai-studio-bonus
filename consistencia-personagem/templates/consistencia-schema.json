@@ -31,8 +31,12 @@
     "corpo": {
       "type": "object",
       "properties": {
+        "peso": { "type": "string" },
         "altura": { "type": "string" },
-        "porte": { "type": "string" }
+        "tipoCorpo": { "type": "string" },
+        "somatotipo": { "type": "string" },
+        "porte": { "type": "string" },
+        "proporcoes": { "type": "string" }
       }
     },
     "guardaRoupa": {
