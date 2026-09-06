@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PersonaConsistencyConfig",
+  "type": "object",
+  "required": ["slug", "nome", "genero", "idadeAparente", "promptAncora", "negativePrompt", "caminhoFolhaMestre"],
+  "properties": {
+    "slug": { "type": "string" },
+    "nome": { "type": "string" },
+    "tipo": { "type": "string", "enum": ["real", "sintetica"] },
+    "genero": { "type": "string" },
+    "idadeAparente": { "type": "integer" },
+    "etnia": { "type": "string" },
+    "tomPele": { "type": "string" },
+    "cabelo": {
+      "type": "object",
+      "properties": {
+        "cor": { "type": "string" },
+        "textura": { "type": "string" },
+        "estilo": { "type": "string" }
+      }
+    },
+    "rosto": {
+      "type": "object",
+      "properties": {
+        "formato": { "type": "string" },
+        "olhos": { "type": "string" },
+        "barba": { "type": "string" },
+        "marcas": { "type": "string" }
+      }
+    },
+    "corpo": {
+      "type": "object",
+      "properties": {
+        "altura": { "type": "string" },
+        "porte": { "type": "string" }
+      }
+    },
+    "guardaRoupa": {
+      "type": "object",
+      "properties": {
+        "principal": { "type": "string" },
+        "secundario": { "type": "string" }
+      }
+    },
+    "promptAncora": { "type": "string" },
+    "negativePrompt": { "type": "string" },
+    "caminhoFolhaMestre": { "type": "string" },
+    "caminhoRostoMaster": { "type": "string" }
+  }
+}
