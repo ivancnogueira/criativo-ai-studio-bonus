@@ -11,21 +11,28 @@ Não precisa mexer em terminal nem configurar nada manualmente. **Basta abrir o 
 ```text
 Atue como Engenheiro de Instalação do Criativo AI Studio.
 
-Identifiquei que tenho um pacote de 3 SKILLS BÔNUS que quero integrar ao meu projeto do Criativo AI Studio existente:
-1. gerador-de-entregaveis (/gerador-de-entregaveis)
-2. engenharia-reversa-concorrentes (/radar-concorrentes)
-3. consistencia-personagem (/consistencia-personagem)
+Quero instalar e integrar as 3 SKILLS BÔNUS oficiais ao meu projeto existente do Criativo AI Studio.
+
+Repositório Oficial dos Bônus:
+https://github.com/ivancnogueira/criativo-ai-studio-bonus.git
+
+As 3 skills bônus que quero instaladas são:
+1. gerador-de-entregaveis (comando: /gerador-de-entregaveis)
+2. engenharia-reversa-concorrentes (comandos: /radar-concorrentes ou /engenharia-reversa-concorrentes)
+3. consistencia-personagem (comando: /consistencia-personagem)
 
 Por favor, execute a instalação completa e autônoma seguindo este roteiro:
 
-1. Localize a pasta onde minhas habilidades/skills principais do Studio estão instaladas (verifique a pasta 'habilidades/', '.agents/skills/' ou o diretório de skills do Antigravity em '~/.gemini/config/skills').
-2. Copie as pastas das 3 skills bônus para o mesmo local das outras habilidades do meu studio, mantendo todos os arquivos (SKILL.md, scripts e templates).
-3. Verifique se as dependências necessárias (Node.js e Python com Pillow) estão operacionais.
-4. Atualize o arquivo 'AGENTS.md' ou índice de habilidades do meu estúdio, registrando os 3 novos agentes de elite e seus respectivos comandos.
-5. Finalize me apresentando um resumo amigável confirmando que a instalação foi concluída com sucesso e demonstrando um exemplo de como acionar cada uma das 3 novas skills.
+1. Clone temporariamente ou baixe os arquivos do repositório 'https://github.com/ivancnogueira/criativo-ai-studio-bonus.git' em uma pasta temporária.
+2. Localize a pasta onde minhas habilidades/skills principais do Studio estão instaladas no meu projeto ativo (verifique 'habilidades/', '.agents/skills/' ou o diretório global de skills do Antigravity em '~/.gemini/config/skills').
+3. Copie as pastas completas das 3 skills bônus ('gerador-de-entregaveis', 'engenharia-reversa-concorrentes' e 'consistencia-personagem') para o mesmo local das outras habilidades do meu studio, mantendo todos os arquivos (SKILL.md, scripts e templates).
+4. Verifique se as dependências necessárias do ambiente (Node.js e Python com Pillow) estão operacionais.
+5. Atualize o arquivo 'AGENTS.md' ou índice de habilidades do meu estúdio, registrando os 3 novos agentes de elite e seus respectivos comandos.
+6. Exclua a pasta temporária do clone após a cópia.
+7. Finalize me apresentando um resumo confirmando que a instalação foi concluída com sucesso e demonstrando um exemplo prático de como acionar cada uma das 3 novas skills.
 ```
 
-O Antigravity identificará o seu estúdio, copiará os arquivos para as pastas corretas, atualizará o `AGENTS.md` e deixará os comandos prontos para uso imediato!
+O Antigravity identificará o seu estúdio, baixará os arquivos do repositório, copiará para as pastas corretas, atualizará o `AGENTS.md` e deixará os comandos prontos para uso imediato!
 
 *(Para instruções detalhadas ou método alternativo via PowerShell, consulte o guia [INSTALACAO-1-CLIQUE.md](INSTALACAO-1-CLIQUE.md)).*
 
