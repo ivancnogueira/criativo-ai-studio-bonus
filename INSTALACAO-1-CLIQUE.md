@@ -25,7 +25,7 @@ As 3 skills bônus que quero instaladas são:
 
 Por favor, execute a instalação completa e autônoma seguindo este roteiro:
 
-1. Clone temporariamente ou baixe os arquivos do repositório 'https://github.com/ivancnogueira/criativo-ai-studio-bonus.git' em uma pasta temporária.
+1. Clone temporariamente ou baixe os arquivos do repositório 'https://github.com/SEU-USUARIO/criativo-ai-studio-bonus.git' em uma pasta temporária.
 2. Localize a pasta onde minhas habilidades/skills principais do Studio estão instaladas no meu projeto ativo (verifique 'habilidades/', '.agents/skills/' ou o diretório global de skills do Antigravity em '~/.gemini/config/skills').
 3. Copie as pastas completas das 3 skills bônus ('gerador-de-entregaveis', 'engenharia-reversa-concorrentes' e 'consistencia-personagem') para o mesmo local das outras habilidades do meu studio, mantendo todos os arquivos (SKILL.md, scripts e templates).
 4. Verifique se as dependências necessárias do ambiente (Node.js e Python com Pillow) estão operacionais.
@@ -39,7 +39,7 @@ Por favor, execute a instalação completa e autônoma seguindo este roteiro:
 ## 🛠️ O que o Antigravity fará automaticamente:
 
 Quando você colar esse prompt, o assistente inteligente irá:
-1. **Baixar o repositório bônus**: Clona `https://github.com/ivancnogueira/criativo-ai-studio-bonus.git` diretamente na sua máquina.
+1. **Baixar o repositório bônus**: Clona `https://github.com/SEU-USUARIO/criativo-ai-studio-bonus.git` diretamente na sua máquina.
 2. **Escanear seu projeto atual**: Detecta onde suas habilidades existentes estão instaladas (`Criativo AI Studio` ou `social-media-studio`).
 3. **Copiar os arquivos**: Transporta as 3 pastas com seus códigos, modelos e instruções para o local correto sem sobrescrever nada do seu trabalho anterior.
 4. **Validar o ambiente**: Testa se o gerador de PDF/Planilha e o compilador de consistência estão prontos.
@@ -54,7 +54,7 @@ Caso prefira fazer a cópia manualmente via PowerShell no seu computador:
 
 ```powershell
 # 1. Clonar o repositório de bônus:
-git clone https://github.com/ivancnogueira/criativo-ai-studio-bonus.git temp-bonus
+git clone https://github.com/SEU-USUARIO/criativo-ai-studio-bonus.git temp-bonus
 
 # 2. Defina o caminho do seu estúdio existente:
 $MeuStudio = "CAMINHO_DO_SEU_STUDIO"  # Ex: "C:\PROJETOS\meu-social-media-studio"

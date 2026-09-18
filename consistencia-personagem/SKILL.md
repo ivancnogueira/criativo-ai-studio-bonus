@@ -42,7 +42,7 @@ Conduza a entrevista interativa via `ask_question` em 4 blocos simplificados e a
 1. **Tipo de Sujeito**:
    - **Pessoa Real / Criador**: O usuário indica fotos de referência suas ou de um cliente (em `recursos/fotos` ou enviadas no chat).
    - **Persona Sintética / Virtual (100% IA)**: Criação de um rosto e identidade novos do zero para a marca.
-2. **Nome e Slug**: Nome do criador ou personagem (ex: `Ivan Nogueira` -> slug `ivan-nogueira`).
+2. **Nome e Slug**: Nome do criador ou personagem (ex: `João Silva` -> slug `joao-silva`).
 
 ### Bloco 2: Tipo de Corpo & Peso (Linguagem para Leigos)
 Em vez de conceitos complexos de medicina/antropometria, pergunte de forma direta:
